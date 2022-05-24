@@ -10,7 +10,7 @@ namespace Calculator {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Calculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -59,14 +59,14 @@ namespace Calculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -120,7 +120,7 @@ namespace Calculator {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(161, 20);
 			this->label7->TabIndex = 28;
-			this->label7->Text = L"Процентная ставка:";
+			this->label7->Text = L"РџСЂРѕС†РµРЅС‚РЅР°СЏ СЃС‚Р°РІРєР°:";
 			this->label7->Click += gcnew System::EventHandler(this, &MyForm::label7_Click);
 			// 
 			// comboBox2
@@ -128,24 +128,24 @@ namespace Calculator {
 			this->comboBox2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Лет", L"Месяцев" });
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Р›РµС‚", L"РњРµСЃСЏС†РµРІ" });
 			this->comboBox2->Location = System::Drawing::Point(426, 145);
 			this->comboBox2->Name = L"comboBox2";
 			this->comboBox2->Size = System::Drawing::Size(106, 27);
 			this->comboBox2->TabIndex = 27;
-			this->comboBox2->Text = L"Лет";
+			this->comboBox2->Text = L"Р›РµС‚";
 			// 
 			// comboBox1
 			// 
 			this->comboBox1->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Расчёт ежемесячного платежа", L"Расчёт максимальной суммы кредита" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Р Р°СЃС‡С‘С‚ РµР¶РµРјРµСЃСЏС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°", L"Р Р°СЃС‡С‘С‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕР№ СЃСѓРјРјС‹ РєСЂРµРґРёС‚Р°" });
 			this->comboBox1->Location = System::Drawing::Point(196, 26);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(351, 27);
 			this->comboBox1->TabIndex = 26;
-			this->comboBox1->Text = L"Расчёт ежемесячного платежа";
+			this->comboBox1->Text = L"Р Р°СЃС‡С‘С‚ РµР¶РµРјРµСЃСЏС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°";
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
 			// 
 			// label6
@@ -157,7 +157,7 @@ namespace Calculator {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(141, 20);
 			this->label6->TabIndex = 25;
-			this->label6->Text = L"Вариант расчёта:";
+			this->label6->Text = L"Р’Р°СЂРёР°РЅС‚ СЂР°СЃС‡С‘С‚Р°:";
 			this->label6->Click += gcnew System::EventHandler(this, &MyForm::label6_Click);
 			// 
 			// label5
@@ -170,7 +170,7 @@ namespace Calculator {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(34, 16);
 			this->label5->TabIndex = 24;
-			this->label5->Text = L"руб.";
+			this->label5->Text = L"СЂСѓР±.";
 			// 
 			// label4
 			// 
@@ -181,7 +181,7 @@ namespace Calculator {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(191, 20);
 			this->label4->TabIndex = 23;
-			this->label4->Text = L"Срок выплаты кредита:";
+			this->label4->Text = L"РЎСЂРѕРє РІС‹РїР»Р°С‚С‹ РєСЂРµРґРёС‚Р°:";
 			this->label4->Click += gcnew System::EventHandler(this, &MyForm::label4_Click);
 			// 
 			// label3
@@ -193,7 +193,7 @@ namespace Calculator {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(130, 20);
 			this->label3->TabIndex = 22;
-			this->label3->Text = L"Сумма кредита:";
+			this->label3->Text = L"РЎСѓРјРјР° РєСЂРµРґРёС‚Р°:";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// label2
@@ -205,7 +205,7 @@ namespace Calculator {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(112, 20);
 			this->label2->TabIndex = 19;
-			this->label2->Text = L"Вид платежа:";
+			this->label2->Text = L"Р’РёРґ РїР»Р°С‚РµР¶Р°:";
 			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
 			// 
 			// label1
@@ -243,7 +243,7 @@ namespace Calculator {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(211, 37);
 			this->button1->TabIndex = 32;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -255,7 +255,7 @@ namespace Calculator {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(211, 43);
 			this->button2->TabIndex = 33;
-			this->button2->Text = L"Сбросить";
+			this->button2->Text = L"РЎР±СЂРѕСЃРёС‚СЊ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -268,7 +268,7 @@ namespace Calculator {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(87, 20);
 			this->label9->TabIndex = 34;
-			this->label9->Text = L"Результат:";
+			this->label9->Text = L"Р РµР·СѓР»СЊС‚Р°С‚:";
 			// 
 			// textBox1
 			// 
@@ -285,12 +285,12 @@ namespace Calculator {
 			this->comboBox3->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->comboBox3->FormattingEnabled = true;
-			this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Аннуитетный", L"Дифференцированный" });
+			this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"РђРЅРЅСѓРёС‚РµС‚РЅС‹Р№", L"Р”РёС„С„РµСЂРµРЅС†РёСЂРѕРІР°РЅРЅС‹Р№" });
 			this->comboBox3->Location = System::Drawing::Point(139, 279);
 			this->comboBox3->Name = L"comboBox3";
 			this->comboBox3->Size = System::Drawing::Size(214, 27);
 			this->comboBox3->TabIndex = 36;
-			this->comboBox3->Text = L"Аннуитетный";
+			this->comboBox3->Text = L"РђРЅРЅСѓРёС‚РµС‚РЅС‹Р№";
 			this->comboBox3->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox3_SelectedIndexChanged);
 			// 
 			// MyForm
@@ -317,25 +317,25 @@ namespace Calculator {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox2);
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор";
+			this->Text = L"РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
-		if (comboBox1->SelectedItem == "Расчёт ежемесячного платежа") {
-			label3->Text = "Сумма кредита";
-			label4->Text = "Срок выплаты кредита";
+		if (comboBox1->SelectedItem == "Р Р°СЃС‡С‘С‚ РµР¶РµРјРµСЃСЏС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°") {
+			label3->Text = "РЎСѓРјРјР° РєСЂРµРґРёС‚Р°";
+			label4->Text = "РЎСЂРѕРє РІС‹РїР»Р°С‚С‹ РєСЂРµРґРёС‚Р°";
 
 			comboBox2->Visible = true;
 			comboBox3->Visible = true;
 			label2->Visible = true;
 		}
 
-		else if (comboBox1->SelectedItem == "Расчёт максимальной суммы кредита") {
-			label3->Text = "Ежемесячный платёж";
-			label4->Text = "Срок выплаты кредита";
+		else if (comboBox1->SelectedItem == "Р Р°СЃС‡С‘С‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕР№ СЃСѓРјРјС‹ РєСЂРµРґРёС‚Р°") {
+			label3->Text = "Р•Р¶РµРјРµСЃСЏС‡РЅС‹Р№ РїР»Р°С‚С‘Р¶";
+			label4->Text = "РЎСЂРѕРє РІС‹РїР»Р°С‚С‹ РєСЂРµРґРёС‚Р°";
 			comboBox2->Visible = true;
 			comboBox3->Visible = false;
 			label2->Visible = false;
@@ -355,21 +355,21 @@ namespace Calculator {
 			Num3 = System::Convert::ToDouble(textBox3->Text);
 
 			i = Num3 / 100.0;
-			if (comboBox1->SelectedItem == "Расчёт ежемесячного платежа") {
-				if (comboBox2->SelectedItem == "Лет") {
+			if (comboBox1->SelectedItem == "Р Р°СЃС‡С‘С‚ РµР¶РµРјРµСЃСЏС‡РЅРѕРіРѕ РїР»Р°С‚РµР¶Р°") {
+				if (comboBox2->SelectedItem == "Р›РµС‚") {
 					Num2 = Num2 * 12;
 				}
-				if (comboBox3->SelectedItem == "Аннуитетный") {
+				if (comboBox3->SelectedItem == "РђРЅРЅСѓРёС‚РµС‚РЅС‹Р№") {
 					Result = Num1 * (i + (i / (pow(1.0 + i, Num2) - 1)));
 				}
-				else if (comboBox3->SelectedItem == "Дифференцированный") {
+				else if (comboBox3->SelectedItem == "Р”РёС„С„РµСЂРµРЅС†РёСЂРѕРІР°РЅРЅС‹Р№") {
 					Result = Num1 * (i + 1 / Num2);
 				}
 
 			}
 
-			else if (comboBox1->SelectedItem == "Расчёт максимальной суммы кредита") {
-				if (comboBox2->SelectedItem == "Лет") {
+			else if (comboBox1->SelectedItem == "Р Р°СЃС‡С‘С‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕР№ СЃСѓРјРјС‹ РєСЂРµРґРёС‚Р°") {
+				if (comboBox2->SelectedItem == "Р›РµС‚") {
 					Num2 = Num2 * 12;
 				}
 				Result = Num1 / (i + (i / (pow(1.0 + i, Num2) - 1)));
@@ -378,7 +378,7 @@ namespace Calculator {
 			textBox1->Text = System::Convert::ToString(Result);
 		}
 		else {
-			MessageBox::Show("Ошибка ввода", "Ошибка");
+			MessageBox::Show("РћС€РёР±РєР° РІРІРѕРґР°", "РћС€РёР±РєР°");
 		}
 	}
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -403,7 +403,7 @@ namespace Calculator {
 	private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
 
 	}
-		   //Защита от неверного ввода
+		   //Р—Р°С‰РёС‚Р° РѕС‚ РЅРµРІРµСЂРЅРѕРіРѕ РІРІРѕРґР°
 		   bool Protect() {
 			   if ((textBox2->Text->Length == 0) || (textBox3->Text->Length == 0) || (textBox4->Text->Length == 0)) { return false; }
 			   for (int i = 0; i < textBox2->Text->Length; i++) {
